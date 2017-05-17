@@ -1,15 +1,19 @@
+---
+dependencies: []
+
 galaxy_info:
   author: Aleksandr Ivanov
-  description: User role to manage OS users for Ubuntu / Debian
-  company: your company (optional)
-  license: MIT
-  min_ansible_version: 1.2
-  platforms:
-    - name: Ubuntu
-      versions:
-        - all 
-   - name: Debian
+  description: Users management for Ubuntu / Debian.
+  company: ""
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.2
+  platforms:   
+    - name: Debian
       versions:
         - all
-  galaxy_tags: []  
-dependencies: []
+    - name: Ubuntu
+      versions:
+        - all            
+  galaxy_tags: []
+
+allow_duplicates: yes
